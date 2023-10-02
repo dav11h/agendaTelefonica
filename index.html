@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista telefonica</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="quadro">
+        <header>
+            <div class="container">
+                <h1> 📞 Agenda de Contatos</h1>
+            </div>
+        </header>
+        <main>
+            <section id="formulario">
+                <div class="container">
+                    <form>
+                        <input type="text" required placeholder="nome"  id="nome"  />
+                        <input type="tel" required placeholder="telefone" id="tel" />
+                        <button id="button">+</button>
+                    </form>
+                </div>
+            </section>
+            <section id="resposta">
+                <div class="container">
+                    <table cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Nome do contato</th>
+                                <th>Número</th>   
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; Feito por Davih Dias</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
