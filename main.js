@@ -10,7 +10,7 @@ button.addEventListener('click', function(e){
 })
 
 function adicionar(){
-    if(inpTel.value.length >= 6 && inpTel.value.length <= 15 && inpText.value.length >= 4){
+    if(inpTel.value.length >= 6 && inpTel.value.length <= 15 && inpText.value.length >= 1){
         let tr = document.createElement('tr')
         let td1 = document.createElement('td')
         let td2 = document.createElement('td')
